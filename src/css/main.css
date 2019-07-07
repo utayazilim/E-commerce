@@ -1,3 +1,34 @@
 body {
-  background-color: red;
-  font-size: 16px; }
+  padding: 0px;
+  margin: 0px;
+  background-color: lightgrey; }
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.logo {
+  width: 25%;
+  height: 100px;
+  background: red; }
+
+.navbar {
+  width: 75%;
+  height: 100px;
+  background: purple; }
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
